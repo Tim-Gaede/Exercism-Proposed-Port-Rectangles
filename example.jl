@@ -1,4 +1,4 @@
-function rectangles(text::Array{Any,1})
+function rectangles(text)
     cnt = 0
     for top = 1 : length(text)-1
         for left = 1 : length(text[top]) - 1
